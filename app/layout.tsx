@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'BLC UGM',
   description: 'Created with v0',
   generator: 'v0.app',
+  icons: {
+    icon: '/images/blc-logo.png', // tambahkan path logo di folder public
+  },
 }
 
 export default function RootLayout({
